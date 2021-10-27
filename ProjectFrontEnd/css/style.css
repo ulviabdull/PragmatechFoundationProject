@@ -23,6 +23,7 @@
 }
 
 
+
 .main-navbar-menu{
     display: flex;
     align-items: center;
@@ -86,3 +87,16 @@
     font-size: 30px;
     padding: 10px 20px;
 }
+
+/*my sevices start*/
+.title{
+    font-size: 35px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.development p{
+    font-size: 20px;
+}
+
+
+/* my services end*/

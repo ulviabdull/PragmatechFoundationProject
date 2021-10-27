@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid gray;
+    color: black;
+    outline: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+.box {
+    width: 600px;
+    height: 400px;
+    background: red;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    transition: all .1s linear;
+} 
