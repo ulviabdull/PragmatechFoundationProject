@@ -1,0 +1,6 @@
+#social{
+    height: 50px;
+    border: 1px solid gray;
+    background-color: gray;
+    filter: brightness(180%);
+}
