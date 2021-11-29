@@ -1,6 +1,233 @@
-#social{
+
+
+#navbar-top{
+    background: rgba(238, 237, 237, 0.787);
     height: 50px;
-    border: 1px solid gray;
-    background-color: gray;
-    filter: brightness(180%);
+    
 }
+
+.navbar-top-world{
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Festive' , cursive;
+    font-family: 'Hind' , sans-serif;
+    font-family: 'Lato' , sans-serif;
+    font-family: 'Roboto' , sans-serif;
+    color: rgb(85, 84, 84);
+    font-weight: 300;
+    text-align: center;
+    align-items: center;
+    margin-left: 90px;
+}
+
+.navbar-top-icons{
+    margin: auto 180px;
+}
+
+.navbar-top-icons i{
+    background: #dfdfdf; 
+    color: #474747;
+    width: 27px;
+    height: 27px;
+    line-height: 27px;
+    font-size: 1em;
+    transition: .33s all ease-out;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 10px;
+
+
+}
+
+
+.navbar-top-world p{
+text-align: center center;
+}
+
+.navbar-top-icons i:hover{
+    background: white;
+    color: #24a3d8;
+}
+
+/* navbar start*/
+
+#navbar{
+    height: 50px;
+    background: rgb(54, 54, 58);
+}
+
+#navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-decoration: none;
+    width: 600px;
+    margin-left: 200px;
+    padding-top: 8px;
+    
+}
+
+#navbar li{
+    list-style: none;
+    color: white;
+    list-style-type: none;
+    text-decoration: none;;
+}
+
+#navbar a{
+    list-style: none;
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#navbar i{
+    color: white;
+    padding-top: 20px;
+    margin-right: 120px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-size: 22px;
+    transition: .33s all ease-out;
+}
+
+#navbar a{
+    font-family:Roboto, Helvetica, Arial, sans-serif;
+    font-size:15px;
+    font-weight:900;
+    transition: .33s all ease-out;
+}
+
+#navbar a:hover{
+    color: #24a3d8;
+}
+
+#navbar i:hover{
+    color: #24a3d8;
+}
+
+/* navbar end*/
+
+/* main menu start*/
+#home img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1536px;
+    height:550px;
+}
+
+#home h1{
+    color:white;
+    padding: 30px;
+    font-size:50px;
+    font-weight:900;
+    margin-right: 10cm;
+}
+
+#home p{
+    color: white;
+    font-size:20px;
+    margin-top:-20px;
+    padding: 20px;
+}
+
+.home-row{
+    margin-top: -330px;
+    margin-left: 190px;
+}
+
+.homebuttons{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.homebutton1{
+    color: white;
+    background: #24a3d8;
+    text-align: center;
+    border-radius: 4px;
+    padding: 15px 30px; 
+    border: 2px;
+    font-size: 17px;
+    font-weight: 600;
+
+    transition: .33s all ease-out;
+}
+
+.homebutton2{
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    padding: 15px 25px;
+    border: 2px white solid; 
+    font-size: 17px;
+    font-weight: 600;
+
+    transition: .33s all ease-out;
+} 
+
+.homebutton1:hover{
+    color:#24a3d8 ;
+    background: white;
+}
+
+.homebutton2:hover{
+    color:#24a3d8 ;
+    background: white; 
+}
+/* main menu start*/
+
+
+/* services section start*/
+
+
+#services i{
+    text-align: center;
+    align-items: center;
+    padding: 150px 110px;
+    color:#24a3d8 ;
+    font-size: 3em;
+}
+
+ #services h2{
+     text-align: center;
+    font-family:Roboto, Helvetica, Arial, sans;
+    transition: .33s all ease-out;
+    font-size: 20px;
+    margin-top: 100px;
+}  
+
+#services h2:hover{
+    color:#24a3d8;
+}
+
+#services p{
+    text-align: center;
+    color:rgb(102, 102, 102);
+    font-family:Roboto, Helvetica, Arial, sans-serif;
+    font-size:16px;
+    font-weight:300;
+    padding: 15px;
+    margin-top: 1px;
+}
+
+.financial{
+    width: 270px;
+    height: 300px;
+}
+
+.retirement{
+    width: 270px;
+}
+
+.risk{
+    width: 270px;
+}
+
+.taxation{
+    width: 270px;
+}
+
+/* services section end*/
